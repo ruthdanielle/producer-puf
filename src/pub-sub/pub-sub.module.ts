@@ -17,6 +17,6 @@ import { PubSubService } from './pub-sub.service';
     },
     PubSubService
   ],
-  exports: [PubSubService, GCPubSubClient], // Exporta o GCPubSubClient para ser usado em outros módulos
+  exports: [PubSubService, GCPubSubClient],
 })
 export class PubSubModule {}

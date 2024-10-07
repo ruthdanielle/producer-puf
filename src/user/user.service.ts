@@ -23,13 +23,4 @@ export class UserService {
             throw new Error('Falha ao enviar a mensagem para o Pub/SUb');
         }
     }
-
-    private loadUserAttributes(input) {
-        const preview : any = new Object();
-
-        preview.id_cliente = input.users.id_cliente;
-        preview.ativo = input.users.ativo;
-
-        return preview;
-    }
 }
